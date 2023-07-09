@@ -5,11 +5,11 @@
         "nixpkgs-lib": "nixpkgs-lib"
       },
       "locked": {
-        "lastModified": 1688254665,
-        "narHash": "sha256-8FHEgBrr7gYNiS/NzCxIO3m4hvtLRW9YY1nYo1ivm3o=",
+        "lastModified": 1688466019,
+        "narHash": "sha256-VeM2akYrBYMsb4W/MmBo1zmaMfgbL4cH3Pu8PGyIwJ0=",
         "owner": "hercules-ci",
         "repo": "flake-parts",
-        "rev": "267149c58a14d15f7f81b4d737308421de9d7152",
+        "rev": "8e8d955c22df93dbe24f19ea04f47a74adbdc5ec",
         "type": "github"
       },
       "original": {
@@ -45,11 +45,11 @@
       },
       "locked": {
         "dir": "contrib",
-        "lastModified": 1688312661,
-        "narHash": "sha256-e4zahWEWEXahlzrHveDVt2p/fK2aMqFGH3bNsG/gArU=",
+        "lastModified": 1688830164,
+        "narHash": "sha256-ZY9iudFa4m2h+e5gbaDV9S3ctAtMd9xHHfZZHjfR3tQ=",
         "owner": "neovim",
         "repo": "neovim",
-        "rev": "4fd852b8cb88ed035203d3f9ae2e6a8258244974",
+        "rev": "fbeef0d4ef1aadc4e50b9f33946cf4dca8ca6b62",
         "type": "github"
       },
       "original": {
@@ -61,11 +61,11 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1688344088,
-        "narHash": "sha256-es8xloz2d4gopO4U5ZAXVdfJAAAxWqD6Bhn275d/yC0=",
+        "lastModified": 1688921215,
+        "narHash": "sha256-vSow/PEBkTy1PVpQ0Fzbv1gvGvkiGjL2d0CdOuKXRSs=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "ef72d5a03e08fca9f6d2b3619aeea682f1a7609a",
+        "rev": "986caf51a859110e3adba09ac5e0240e192014cd",
         "type": "github"
       },
       "original": {
