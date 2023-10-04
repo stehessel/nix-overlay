@@ -25,30 +25,12 @@
 
       perSystem = {
         inputs',
-        system,
         config,
-        pkgs,
-        lib,
         ...
       }: {
-        packages = let
-          darwinPackages =
-            if lib.hasSuffix "darwin" system
-            then rec {
-              liblpeg = import ./packages/liblpeg-darwin.nix {inherit pkgs;};
-              neovim-nightly = import ./packages/neovim-nightly.nix {
-                inherit (inputs'.neovim-flake.packages) neovim;
-                inherit liblpeg lib;
-              };
-            }
-            else {
-              neovim-nightly = import ./packages/neovim-nightly.nix {
-                inherit (inputs'.neovim-flake.packages) neovim;
-                inherit lib;
-              };
-            };
-        in
-          {} // darwinPackages;
+        packages = {
+          neovim-nightly = inputs'.neovim-flake.packages.neovim;
+        };
 
         overlayAttrs = config.packages;
       };
