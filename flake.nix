@@ -34,9 +34,5 @@
 
         overlayAttrs = config.packages;
       };
-
-      flake = {
-        overlay = inputs.self.overlays.default;
-      };
     };
 }
