@@ -3,7 +3,6 @@
     # Editor
     editorconfig-checker.enable = true;
     tagref.enable = true;
-    typos.enable = true;
 
     # GitHub actions
     actionlint.enable = true;
