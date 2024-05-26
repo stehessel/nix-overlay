@@ -7,7 +7,8 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
     neovim-flake = {
-      url = "github:neovim/neovim?dir=contrib";
+      url = "github:nix-community/neovim-nightly-overlay";
+      inputs.flake-parts.follows = "flake-parts";
       inputs.nixpkgs.follows = "nixpkgs";
     };
   };
