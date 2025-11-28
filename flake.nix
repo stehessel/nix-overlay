@@ -2,8 +2,8 @@
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs";
     flake-parts.url = "github:hercules-ci/flake-parts";
-    pre-commit-hooks = {
-      url = "github:cachix/pre-commit-hooks.nix";
+    git-hooks = {
+      url = "github:cachix/git-hooks.nix";
       inputs.nixpkgs.follows = "nixpkgs";
     };
     neovim-flake = {
@@ -19,7 +19,7 @@
 
       imports = [
         flake-parts.flakeModules.easyOverlay
-        inputs.pre-commit-hooks.flakeModule
+        inputs.git-hooks.flakeModule
       ];
 
       perSystem = {
